@@ -39,6 +39,15 @@ console.log("<<<Fine esercizio 3>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let number1 = 10;
+let number2 = 2;
+
+if(number1 === 8 ||number2 === 8 ||number1-number2 === 8||number1+number2 ===8){
+  console.log("una delle condizione da 8");
+} else { console.log("nessuna condizione da 8");
+}
+
+console.log("<<<Fine esercizio 4>>>");
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -238,12 +247,28 @@ console.log("<<<Fine esercizio 13>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const numeri{
-  ""
-}
+const number = Array;
+number[1] = 1;
+number[2] = 2;
+number[3] = 3;
+number[4] = 4;
+number[5] = 5;
+number[6] = 6;
+number[7] = 7;
+number[8] = 8;
+number[9] = 9;
+number[10] = 10;
+console.log(number);
+
+console.log("<<<Fine esercizio 14>>>");
+
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+number[10] = 100;
+console.log(number)
+
+console.log("<<<Fine esercizio 15>>>");
