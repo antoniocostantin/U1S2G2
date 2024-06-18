@@ -39,10 +39,10 @@ console.log("<<<Fine esercizio 3>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let number1 = 10;
-let number2 = 2;
+let number1 = 2;
+let number2 = 10;
 
-if(number1 === 8 ||number2 === 8 ||number1-number2 === 8||number1+number2 ===8){
+if(number1 === 8 ||number2 === 8 ||number1-number2 === 8||number2-number1 === 8 ||number1+number2 ===8){
   console.log("una delle condizione da 8");
 } else { console.log("nessuna condizione da 8");
 }
