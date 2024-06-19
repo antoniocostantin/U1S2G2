@@ -191,7 +191,7 @@ console.log("<<<Fine esercizio 9>>>");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let val = 5
-  if (val < 10 && val > 5) {
+  if (val < 10 && val >= 5) {
       console.log("Meno di 10");
     } else if (val < 5) {
       console.log("Meno di 5");
@@ -236,7 +236,9 @@ console.log("<<<Fine esercizio 12>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-delete me.skills[2];
+// delete me.skills[2]; 
+
+me.skills.length = me.skills.length - 1;
 console.log(me);
 
 console.log("<<<Fine esercizio 13>>>");
@@ -247,18 +249,28 @@ console.log("<<<Fine esercizio 13>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const number = Array;
-number[1] = 1;
-number[2] = 2;
-number[3] = 3;
-number[4] = 4;
-number[5] = 5;
-number[6] = 6;
-number[7] = 7;
-number[8] = 8;
-number[9] = 9;
-number[10] = 10;
-console.log(number);
+/*const number = [];
+number[0] = 1;
+number[1] = 2;
+number[2] = 3;
+number[3] = 4;
+number[4] = 5;
+number[5] = 6;
+number[6] = 7;
+number[7] = 8;
+number[8] = 9;
+number[9] = 10;
+console.log(number);*/
+
+const number = [];
+for(i=1; i<=10; i+=1){
+  number[i-1] = i;
+}
+
+console.log(number)
+
+
+
 
 console.log("<<<Fine esercizio 14>>>");
 
@@ -268,7 +280,7 @@ console.log("<<<Fine esercizio 14>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-number[10] = 100;
+number[9] = 100;
 console.log(number)
 
 console.log("<<<Fine esercizio 15>>>");
