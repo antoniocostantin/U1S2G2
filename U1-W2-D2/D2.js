@@ -3,8 +3,8 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let numb1 = 7;
-let numb2 = 38;
+let numb1 = 5;
+let numb2 = 15;
 (numb1 < numb2)? console.log("numero due piu` grande di numero uno"): console.log("numero uno piu` grande di numero due");
 
 console.log("<<<Fine esercizio 1>>>");
@@ -40,7 +40,7 @@ console.log("<<<Fine esercizio 3>>>");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let number1 = 2;
-let number2 = 10;
+let number2 = 11;
 
 if(number1 === 8 ||number2 === 8 ||number1-number2 === 8||number2-number1 === 8 ||number1+number2 ===8){
   console.log("una delle condizione da 8");
@@ -67,7 +67,7 @@ if(totalShoppingCart < promo){
   console.log(totprice);
 } else {
   console.log("spedizione gratis");
-  totprice = totalShoppingCart 
+  totprice = totalShoppingCart;
   console.log(totprice);
 }
 
@@ -79,7 +79,9 @@ console.log("<<<Fine esercizio 5>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-totalShoppingCart = totalShoppingCart - totalShoppingCart * 0.2;
+let discount = 0.2;
+
+totalShoppingCart = totalShoppingCart * (1 - discount);
 console.log(totalShoppingCart);
 
 if(totalShoppingCart < promo){
@@ -88,7 +90,7 @@ if(totalShoppingCart < promo){
   console.log(totprice);
 } else {
   console.log("spedizione gratis");
-  totprice = totalShoppingCart 
+  totprice = totalShoppingCart;
   console.log(totprice);
 }
 
@@ -102,9 +104,9 @@ console.log("<<<Fine esercizio 6>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x = 9;
-let y = 6;
-let z = 2;
+let x = 3;
+let y = 7;
+let z = 9;
 let primo;
 let secondo;
 let terzo;
@@ -148,8 +150,8 @@ console.log("<<<Fine esercizio 7>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num1 = 6;
-if(typeof(num1) === typeof("2")){
+let num1 = 76969890;
+if(typeof(num1) === typeof("6")){
   console.log("not number");
 } else {
   console.log("number");
@@ -164,7 +166,7 @@ console.log("<<<Fine esercizio 8>>>");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num = 6;
+let num = 578586858;
 let verify=num % 2;
 if(verify === 1){
   console.log("dispari");
@@ -191,7 +193,7 @@ console.log("<<<Fine esercizio 9>>>");
 let val = 5
   if (val < 10 && val > 5) {
       console.log("Meno di 10");
-    } else if (val <= 5) {
+    } else if (val < 5) {
       console.log("Meno di 5");
     } else {
       console.log("Uguale a 10 o maggiore");
@@ -211,12 +213,10 @@ const me = {
 }
 console.log(me)
 
+/* SCRIVI QUI LA TUA RISPOSTA */
 me.city = "Toronto";
 console.log(me)
 
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-me.city = "Toronto";
 
 console.log("<<<Fine esercizio 11>>>");
 
